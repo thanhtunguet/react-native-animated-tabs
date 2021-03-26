@@ -1,5 +1,5 @@
 {
-  "name": "react-native-animated-tabs",
+  "name": "react-native-scrollview-tabs",
   "version": "0.1.0",
   "description": "Animated tabs for React Native",
   "main": "lib/commonjs/index",

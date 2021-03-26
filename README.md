@@ -1,5 +1,5 @@
-react-native-animated-tabs
-=====================
+react-native-scrollview-tabs
+============================
 Simple animated tabs using `ScrollView` for React Native.
 ## Installation
 Bare React Native projects:
@@ -69,4 +69,4 @@ export default function App() {
 ### AnimatedTab props
 | Prop Name | Signature | Description |
 |---|---|---|
-| `title`  |  string | ReactElement  |  Tab title  |
+| title  |  string | ReactElement  |  Tab title  |
