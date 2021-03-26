@@ -1,5 +1,4 @@
 import React, { FC, PropsWithChildren, ReactElement } from 'react';
-import nameof from 'ts-nameof.macro';
 import type { ViewProps } from 'react-native';
 
 /**
@@ -28,6 +27,6 @@ AnimatedTab.propTypes = {
   //
 };
 
-AnimatedTab.displayName = nameof(AnimatedTab);
+AnimatedTab.displayName = 'AnimatedTab';
 
 export default AnimatedTab;

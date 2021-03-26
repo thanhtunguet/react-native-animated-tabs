@@ -12,7 +12,7 @@ expo install react-native-scrollview-tabs
 ```
 ## Usage
 
-[Online demo](https://snack.expo.io/@thanhtunguet/react-native-animated-tabs) at Expo Snack
+[Online demo](https://snack.expo.io/@thanhtunguet/react-native-scrollview-tabs) at Expo Snack
 
 ```tsx
 import * as React from 'react';

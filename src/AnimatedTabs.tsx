@@ -1,6 +1,5 @@
 import type { FC, ReactElement, RefObject } from 'react';
 import React from 'react';
-import nameof from 'ts-nameof.macro';
 import type {
   ScrollViewProps,
   StyleProp,
@@ -224,7 +223,7 @@ AnimatedTabs.propTypes = {
   renderTitle: PropTypes.func,
 };
 
-AnimatedTabs.displayName = nameof(AnimatedTabs);
+AnimatedTabs.displayName = 'AnimatedTabs';
 
 const styles = StyleSheet.create({
   container: {

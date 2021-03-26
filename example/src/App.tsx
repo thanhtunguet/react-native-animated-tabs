@@ -40,19 +40,10 @@ export default function App() {
 }
 
 const styles = StyleSheet.create({
-  safeArea: {
-    width: '100%',
-    height: '100%',
-  },
   container: {
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
-  },
-  box: {
-    width: 60,
-    height: 60,
-    marginVertical: 20,
   },
   tabs: {
     width: '100%',
