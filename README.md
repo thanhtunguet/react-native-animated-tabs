@@ -4,11 +4,11 @@ Simple animated tabs using `ScrollView` for React Native.
 ## Installation
 Bare React Native projects:
 ```sh
-yarn add react-native-animated-tabs
+yarn add react-native-scrollview-tabs
 ```
 Expo projects:
 ```sh
-expo install react-native-animated-tabs
+expo install react-native-scrollview-tabs
 ```
 ## Usage
 
