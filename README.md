@@ -59,14 +59,14 @@ export default function App() {
 ## Props
 ### AnimatedTabs props
 | Prop Name | Signature | Description |
-|--|--|--|
-| `index` | `number` | Default active tab index |
-| `onIndexChange` | `(index: number) => void | Promise<void>` | Tab index change callback |
-| `renderTitle` | `(title: ReactElement | string, isActive?: boolean): ReactElement` | Render custom title |
-| `tabTitleStyle` | `ViewProps['style']` | Style for tab title |
-| `children` | `ReactElement<AnimatedTabProps> | ReactElement<AnimatedTabProps>[]` | AnimatedTab elements |
+|---|---|---|
+| index | number | Default active tab index |
+| onIndexChange | (index: number) => void | Promise<void> | Tab index change callback |
+| renderTitle | (title: ReactElement / string, isActive?: boolean) => ReactElement | Render custom title |
+| tabTitleStyle | ViewProps['style'] | Style for tab title |
+| children | ReactElement<AnimatedTabProps> / ReactElement<AnimatedTabProps>[] | AnimatedTab elements |
 
 ### AnimatedTab props
 | Prop Name | Signature | Description |
-|--|--|--|
-| `title` | `string | ReactElement` | Tab title |
+|---|---|---|
+| `title`  |  string | ReactElement  |  Tab title  |
