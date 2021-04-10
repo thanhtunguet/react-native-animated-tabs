@@ -13,7 +13,7 @@
     "android",
     "ios",
     "cpp",
-    "react-native-animated-tabs.podspec",
+    "react-native-scrollview-tabs.podspec",
     "!lib/typescript/example",
     "!android/build",
     "!ios/build",
@@ -37,13 +37,13 @@
     "ios",
     "android"
   ],
-  "repository": "https://github.com/thanhtunguet/react-native-animated-tabs",
+  "repository": "https://github.com/thanhtunguet/react-native-scrollview-tabs",
   "author": "Thanh Tùng <ht@thanhtunguet.info> (https://github.com/thanhtunguet)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/thanhtunguet/react-native-animated-tabs/issues"
+    "url": "https://github.com/thanhtunguet/react-native-scrollview-tabs/issues"
   },
-  "homepage": "https://github.com/thanhtunguet/react-native-animated-tabs#readme",
+  "homepage": "https://github.com/thanhtunguet/react-native-scrollview-tabs#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
