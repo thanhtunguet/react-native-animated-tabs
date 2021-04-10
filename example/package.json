@@ -1,6 +1,6 @@
 {
-  "name": "react-native-animated-tabs-example",
-  "description": "Example app for react-native-animated-tabs",
+  "name": "react-native-scrollview-tabs-example",
+  "description": "Example app for react-native-scrollview-tabs",
   "version": "0.0.1",
   "private": true,
   "main": "index",

@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "jsx": "react-native",
-    "target": "esnext",
+    "target": "ESNext",
     "lib": [
       "ESNext"
     ],
@@ -14,8 +14,8 @@
     "moduleResolution": "node",
     "baseUrl": ".",
     "paths": {
-      "react-native-animated-tabs": [
-        "../src/index"
+      "react-native-scrollview-tabs": [
+        "../src/index.tsx"
       ]
     }
   }

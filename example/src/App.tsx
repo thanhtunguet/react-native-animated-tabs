@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { SafeAreaView, StatusBar, StyleSheet, Text } from 'react-native';
-import AnimatedTabs, { AnimatedTab } from 'react-native-animated-tabs';
+import AnimatedTabs, { AnimatedTab } from 'react-native-scrollview-tabs';
 
 const tabs: number[] = [1, 2, 3, 4, 5, 6, 7];
 

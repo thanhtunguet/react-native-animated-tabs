@@ -1,10 +1,10 @@
 {
-  "name": "react-native-animated-tabs-example",
+  "name": "react-native-scrollview-tabs-example",
   "displayName": "AnimatedTabs Example",
   "expo": {
-    "name": "react-native-animated-tabs-example",
-    "slug": "react-native-animated-tabs-example",
-    "description": "Example app for react-native-animated-tabs",
+    "name": "react-native-scrollview-tabs-example",
+    "slug": "react-native-scrollview-tabs-example",
+    "description": "Example app for react-native-scrollview-tabs",
     "privacy": "public",
     "version": "1.0.0",
     "platforms": [
