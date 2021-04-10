@@ -979,7 +979,7 @@
     pirates "^4.0.0"
     source-map-support "^0.5.16"
 
-"@babel/runtime@^7.0.0", "@babel/runtime@^7.11.2", "@babel/runtime@^7.12.5", "@babel/runtime@^7.8.4":
+"@babel/runtime@^7.0.0", "@babel/runtime@^7.11.2", "@babel/runtime@^7.8.4":
   version "7.13.10"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.13.10.tgz#47d42a57b6095f4468da440388fdbad8bebf0d7d"
   integrity sha512-4QPkjJq6Ns3V/RgpEahRk+AGfL0eO6RHHtTWoNNr5mO49G6B5+X6d6THgWEAvTrznU5xYpbAlVKRYcsCgh/Akw==
@@ -1730,16 +1730,6 @@
   resolved "https://registry.yarnpkg.com/@react-native-community/eslint-plugin/-/eslint-plugin-1.1.0.tgz#e42b1bef12d2415411519fd528e64b593b1363dc"
   integrity sha512-W/J0fNYVO01tioHjvYWQ9m6RgndVtbElzYozBq1ZPrHO/iCzlqoySHl4gO/fpCl9QEFjvJfjPgtPMTMlsoq5DQ==
 
-"@react3l/cli@^1.0.2":
-  version "1.0.2"
-  resolved "https://npm.pkg.github.com/download/@react3l/cli/1.0.2/0323205ea698819885297db8e7986337b16239bbc5286b40b383f564473e5e6c#172fc2b487c551fdfd75ea392a3dce026733c2a7"
-  integrity sha512-zmcx/zHXOilyoJEUZ6yoexgcTMh5xEmSXOw0G+v2UVU9CC/g8iX5hUQ9/KojdR3/ixL/cbAxK2fz2NuU8zdNNg==
-  dependencies:
-    commander "^6.1.0"
-    lodash "^4.17.20"
-    moment "^2.27.0"
-    source-map-support "^0.5.19"
-
 "@release-it/conventional-changelog@^2.0.0":
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/@release-it/conventional-changelog/-/conventional-changelog-2.0.1.tgz#bdd52ad3ecc0d6e39d637592d6ea2bd6d28e5ecb"
@@ -1787,26 +1777,6 @@
   integrity sha512-PyRA9sm1Yayuj5OIoJ1hGt2YISX45w9WcFbh6ddT0Z/0yaFxOtGLInr4jUfU1EAFVs0Yfyfev4RNwBlUaHdlDQ==
   dependencies:
     defer-to-connect "^2.0.0"
-
-"@ts-nameof/common@^4.2.0":
-  version "4.2.1"
-  resolved "https://registry.yarnpkg.com/@ts-nameof/common/-/common-4.2.1.tgz#76e6ab5b4a11c92b2a2a79bf133ae49b57d7efc3"
-  integrity sha512-bWwYOFTTd6Nq7RUqJalIii1su3OyR+N1W0smp5PzHGUVycHuJ7MRiyCQrWgMt1lbbp3GY6cvCttm7Zo5E7A1xQ==
-
-"@ts-nameof/transforms-babel@^4.2.1":
-  version "4.2.1"
-  resolved "https://registry.yarnpkg.com/@ts-nameof/transforms-babel/-/transforms-babel-4.2.1.tgz#3f804ad534fa945c6c48a9cfcd30f47961538595"
-  integrity sha512-4BG5+55JXI3bLzoEqHKPQm5t4JgK2Ae1chAD7w5jDdMI8j1mWqVeonMjNMNIm28dMYs41Qvep25/5hpg24JyOw==
-  dependencies:
-    "@ts-nameof/common" "^4.2.0"
-    "@ts-nameof/transforms-common" "^4.2.1"
-
-"@ts-nameof/transforms-common@^4.2.1":
-  version "4.2.1"
-  resolved "https://registry.yarnpkg.com/@ts-nameof/transforms-common/-/transforms-common-4.2.1.tgz#a38c18ef62f921ffcea7b4a9a693cb63301e23d3"
-  integrity sha512-mg6nkkHqNlKU1B15pEtiikSKadJSOxFFWpi7tEVB7Yhjx0PhoTcSe7oxK0fXHZGeoTGF2SMZjmCsGnbtfcgk6w==
-  dependencies:
-    "@ts-nameof/common" "^4.2.0"
 
 "@types/babel__core@^7.0.0", "@types/babel__core@^7.1.7":
   version "7.1.14"
@@ -2507,15 +2477,6 @@ babel-plugin-jest-hoist@^26.6.2:
     "@types/babel__core" "^7.0.0"
     "@types/babel__traverse" "^7.0.6"
 
-babel-plugin-macros@^3.0.1:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/babel-plugin-macros/-/babel-plugin-macros-3.0.1.tgz#0d412d68f5b3d1b64358f24ab099bd148724e2a9"
-  integrity sha512-CKt4+Oy9k2wiN+hT1uZzOw7d8zb1anbQpf7KLwaaXRCi/4pzKdFKHf7v5mvoPmjkmxshh7eKZQuRop06r5WP4w==
-  dependencies:
-    "@babel/runtime" "^7.12.5"
-    cosmiconfig "^7.0.0"
-    resolve "^1.19.0"
-
 babel-plugin-polyfill-corejs2@^0.1.4:
   version "0.1.10"
   resolved "https://registry.yarnpkg.com/babel-plugin-polyfill-corejs2/-/babel-plugin-polyfill-corejs2-0.1.10.tgz#a2c5c245f56c0cac3dbddbf0726a46b24f0f81d1"
@@ -3103,11 +3064,6 @@ commander@^2.19.0:
   version "2.20.3"
   resolved "https://registry.yarnpkg.com/commander/-/commander-2.20.3.tgz#fd485e84c03eb4881c20722ba48035e8531aeb33"
   integrity sha512-GpVkmM8vF2vQUkj2LvZmD35JxeJOLCwJ9cUkugyk2nuhbv3+mJvpLYYt+0+USMxE+oj+ey/lJEnhZw75x/OMcQ==
-
-commander@^6.1.0:
-  version "6.2.1"
-  resolved "https://registry.yarnpkg.com/commander/-/commander-6.2.1.tgz#0792eb682dfbc325999bb2b84fddddba110ac73c"
-  integrity sha512-U7VdrJFnJgo4xjrHpTzu0yrHPGImdsmD95ZlgYSEajAn2JKzDhDTPG9kBTefmObL2w/ngeZnilk+OV9CG3d7UA==
 
 commander@~2.13.0:
   version "2.13.0"
@@ -6923,11 +6879,6 @@ modify-values@^1.0.0:
   resolved "https://registry.yarnpkg.com/modify-values/-/modify-values-1.0.1.tgz#b3939fa605546474e3e3e3c63d64bd43b4ee6022"
   integrity sha512-xV2bxeN6F7oYjZWTe/YPAy6MN2M+sL4u/Rlm2AHCIVGfo2p1yGmBHQ6vHehl4bRTZBdHu3TSkWdYgkwpYzAGSw==
 
-moment@^2.27.0:
-  version "2.29.1"
-  resolved "https://registry.yarnpkg.com/moment/-/moment-2.29.1.tgz#b2be769fa31940be9eeea6469c075e35006fa3d3"
-  integrity sha512-kHmoybcPV8Sqy59DwNDY3Jefr64lK/by/da0ViFcuA4DH0vQg5Q6Ze5VimxkfQNSC+Mls/Kx53s7TjP1RhFEDQ==
-
 ms@2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.0.0.tgz#5608aeadfc00be6c2901df5f9861788de0d597c8"
@@ -8269,7 +8220,7 @@ resolve-url@^0.2.1:
   resolved "https://registry.yarnpkg.com/resolve-url/-/resolve-url-0.2.1.tgz#2c637fe77c893afd2a663fe21aa9080068e2052a"
   integrity sha1-LGN/53yJOv0qZj/iGqkIAGjiBSo=
 
-resolve@^1.1.6, resolve@^1.10.0, resolve@^1.12.0, resolve@^1.14.2, resolve@^1.18.1, resolve@^1.19.0, resolve@^1.20.0, resolve@^1.5.0:
+resolve@^1.1.6, resolve@^1.10.0, resolve@^1.12.0, resolve@^1.14.2, resolve@^1.18.1, resolve@^1.20.0, resolve@^1.5.0:
   version "1.20.0"
   resolved "https://registry.yarnpkg.com/resolve/-/resolve-1.20.0.tgz#629a013fb3f70755d6f0b7935cc1c2c5378b1975"
   integrity sha512-wENBPt4ySzg4ybFQW2TT1zMQucPK95HSh/nq2CFTZVOGut2+pQvSsgtda4d26YrYcr067wjbmzOG8byDPBX63A==
@@ -8702,7 +8653,7 @@ source-map-resolve@^0.5.0:
     source-map-url "^0.4.0"
     urix "^0.1.0"
 
-source-map-support@^0.5.16, source-map-support@^0.5.19, source-map-support@^0.5.6:
+source-map-support@^0.5.16, source-map-support@^0.5.6:
   version "0.5.19"
   resolved "https://registry.yarnpkg.com/source-map-support/-/source-map-support-0.5.19.tgz#a98b62f86dcaf4f67399648c085291ab9e8fed61"
   integrity sha512-Wonm7zOCIJzBGQdB+thsPar0kYuCIzYvxZwlBa87yi/Mdjv7Tip2cyVbLj5o0cFPN4EVkuTwb3GDDyUx2DGnGw==
@@ -9237,13 +9188,6 @@ trim-off-newlines@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/trim-off-newlines/-/trim-off-newlines-1.0.1.tgz#9f9ba9d9efa8764c387698bcbfeb2c848f11adb3"
   integrity sha1-n5up2e+odkw4dpi8v+sshI8RrbM=
-
-ts-nameof.macro@^4.2.2:
-  version "4.2.2"
-  resolved "https://registry.yarnpkg.com/ts-nameof.macro/-/ts-nameof.macro-4.2.2.tgz#d73f1d20843448f6c12b2ad93863b2fed6f7b213"
-  integrity sha512-Rh3vDVQ3nVhEMoM3fRMTMBHi/mjc+Hlmt9uuUPVpK32ZE+Dj6+FBaRi267sosleKcONB6TcoC5ObbHnmjsedRg==
-  dependencies:
-    "@ts-nameof/transforms-babel" "^4.2.1"
 
 tslib@^1.8.1, tslib@^1.9.0:
   version "1.14.1"
